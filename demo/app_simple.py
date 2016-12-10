@@ -5,9 +5,9 @@ from weixin_sdk.public import WxBasic
 class WechatHandler(tornado.web.RequestHandler):
 
     def prepare(self):
-        self.wechat = WxBasic(appid='YOUR APPID',
-                              appsecret='YOUR APPSECRET',
-                              token='YOUR TOKEN')
+        self.wechat = WxBasic(appid='wxc6bda0648ddce174',
+                              appsecret='2817bd8733126ad630f9d23b149dc3d1',
+                              token='hack')
 
     def get(self):
         #首次接入验证,传入url上的query字符串键值对
